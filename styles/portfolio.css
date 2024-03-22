@@ -3,7 +3,6 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: ;
 }
 
 body {
@@ -36,6 +35,7 @@ p {
   font-size: 96px;
   font-weight: bold;
 }
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
