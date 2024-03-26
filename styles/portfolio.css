@@ -96,17 +96,17 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
@@ -115,9 +115,20 @@ p {
   width: 60%;
   border-radius: 80px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
