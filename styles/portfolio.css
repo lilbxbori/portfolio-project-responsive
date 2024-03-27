@@ -100,6 +100,7 @@ p {
     text-align: center;
     padding: 0;
   }
+
 }
 .content h1 {
   font-size: 64px;
@@ -131,4 +132,32 @@ p {
 
 .content {
   margin: 30px;
+}
+.logo {
+  max-height: 85px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 85%;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
